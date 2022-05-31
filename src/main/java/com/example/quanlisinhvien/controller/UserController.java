@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("api/user")
+@RequestMapping("/user")
 @AllArgsConstructor
 public class UserController {
     @Autowired
